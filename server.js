@@ -2,7 +2,7 @@ const express = require('express');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
-const port = 3000;
+const port = 3210;
 
 // Create rate limiter: 50 requests per second
 const limiter = rateLimit({
